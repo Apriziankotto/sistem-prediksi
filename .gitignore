@@ -1,0 +1,47 @@
+# =========================
+# Laravel
+# =========================
+laravel-dashboard/.env
+laravel-dashboard/.env.*
+!laravel-dashboard/.env.example
+
+laravel-dashboard/vendor/
+laravel-dashboard/node_modules/
+
+laravel-dashboard/storage/logs/
+laravel-dashboard/storage/framework/cache/
+laravel-dashboard/storage/framework/sessions/
+laravel-dashboard/storage/framework/views/
+
+laravel-dashboard/public/build/
+
+# =========================
+# Python
+# =========================
+python-prediksi/.venv/
+python-prediksi/venv/
+python-prediksi/env/
+
+python-prediksi/__pycache__/
+python-prediksi/**/__pycache__/
+*.py[cod]
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# Vite temporary files
+**/vite.config.js.timestamp-*.mjs
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dataset asli
+python-prediksi/dataset_final.xlsx
